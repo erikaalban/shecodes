@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function askForCountry() {
+        let country = prompt("What country are you from?");
+        country = country.toLowerCase().trim();
+
+        if (country === "brazil" || country === "portugal") {
+          alert("You speak Portuguese");
+        } else {
+          alert("Go learn Portuguese");
+        }
+      }
+
+      askForCountry();
+
+      /*
+
+            let age = prompt("How old are you?");
+            if (age < 18) {
+              alert("You cannot apply");
+            }
+            if (age >= 18) {
+              alert("You can apply to SheCodes");
+            }
+
+            let currentHour = prompt("What is the current hour?");
+            if (currentHour < 12) {
+              alert("Good morning");
+            } else if (currentHour > 18) {
+              alert("Good evening");
+            } else {
+              alert("Good afternoon");
+            }
+        */
+    </script>
+  </body>
+</html>
