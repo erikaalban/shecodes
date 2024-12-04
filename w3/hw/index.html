@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My weather application</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form class="city-search">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Enter a city.."
+            required
+          />
+          <input type="submit" class="submit-button" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div class="city-info">
+            <h1>Paris</h1>
+            <p>
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="temperature">☀️ 14°C</div>
+        </div>
+      </main>
+      <section>
+        <ul>
+          <li>
+            tue <br /><span class="material-symbols-outlined">clear_day</span
+            ><br />sunny
+          </li>
+          <li>
+            wed <br /><span class="material-symbols-outlined"
+              >partly_cloudy_day</span
+            ><br />cloudy
+          </li>
+          <li>
+            thu <br /><span class="material-symbols-outlined"
+              >partly_cloudy_day</span
+            ><br />partly cloudy
+          </li>
+          <li>
+            fri <br /><span class="material-symbols-outlined">clear_day</span
+            ><br />sunny
+          </li>
+          <li>
+            sat <br /><span class="material-symbols-outlined">clear_day</span
+            ><br />sunny
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Erika Alban</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
